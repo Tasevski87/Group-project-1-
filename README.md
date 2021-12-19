@@ -24,15 +24,17 @@ https://apidocs.geoapify.com/
 
 ![Ruff! Ruff!](https://user-images.githubusercontent.com/91975394/146097558-d9bcfe9c-e3f3-4905-a8c2-3904f9b59acd.gif)
 
-
-
-
-
-
-## Github Repo Link:
+## Github Group Repo Link:
 https://github.com/Shy-F/ruff-ruff
 
 ## Github Pages URL:
+https://github.com/Shy-F/ruff-ruff
+
+## Github personal URL link:
+
+
+## Github personal URL Pages link:
+
 
 
 ## Contributors:
