@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Ruff! Ruff!</title>
+</head>
+
+<body>
+    <header>
+        <!--Navagation bar-->
+        <nav>
+            <div class='nav-wrapper #7cb342 light-green darken-1'>
+                <a href='/' class='brand-logo'>Ruff! Ruff!</a>
+                <ul id='nav-mobile' class='right hide-on-med-and-down'>
+                    <!--Should we attempt to add a search bar?-->
+                    <li><a href='walkers.html'>Walkers</a>
+                        <!--First tab goes here-->
+                    </li>
+                    <li><a href='sitters.html'>Sitters</a>
+                        <!--Second tab-->
+                    </li>
+                    <li><a href='bon-appetit.html'>Bon Appetit</a>
+                        <!--third tab-->
+                    </li>
+                    <li><a href='login.html' class='#795548 brown-text'>Login!</a>
+                        <!--Login tab-->
+                    </li>
+                    <li><a href='sign-up.html' class='#795548 brown-text'>Sign Up!</a>
+                        <!--Sign up tab-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--End navigation-->
+    </header>
+
+    <section class='row'>
+        <div class='col s6'>
+            <h2 class='#f57c00 orange-text text-darken-2'>
+                Your furry friends' paradise <br>
+                <h3 class='#795548 brown-text'>Want to take a walk in the park? Looking for a dog sitter? Maybe your
+                    buddy deserves a treat?</h3><br>
+                <p class='#7cb342 light-green-text text-darken-1'> We have all your furry friends' needs!</p>
+            </h2>
+            <!--Unique marketing pitch to captivate users to use our services-->
+            <button class='#795548 brown'><a href='login.html' class='#f57c00 orange-text text-darken-2'>Login!</a>
+                <!--Login button-->
+            </button>
+            <button class='#795548 brown'><a href='sign-up.html' class='#f57c00 orange-text text-darken-2'>Sign Up!</a>
+                <!--Sign up button-->
+            </button>
+        </div>
+        <div class="col s6">
+            <!--This is where the random pics of dogs would be inserted through javascript-->
+            <div class="container">
+                <ul class="carousel">
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/1.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/2.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/3.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/5.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='assets/images/8.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/4.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/10.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/9.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                    <li class="carousel-item">
+                        <a herf="#!">
+                            <img src='./assets/images/6.jpg' class="responsive-img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
+        <h6> © 2021 Copyright Ohio State Bootcamp</h6>
+    </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        const small = document.querySelector('.carousel');
+        M.Carousel.init(small, {});
+    </script>
+</body>
+
+</html>

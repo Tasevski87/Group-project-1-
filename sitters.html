@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ruff! Ruff!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico%display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <!--Navagation bar-->
+        <nav>
+            <div class='nav-wrapper #7cb342 light-green darken-1'>
+                <a href='/' class='brand-logo'>Ruff! Ruff!</a>
+                <ul id='nav-mobile' class='right hide-on-med-and-down'>
+                    <!--Should we attempt to add a search bar?-->
+                    <li><a href='walkers.html'>Walkers</a>
+                        <!--First tab goes here-->
+                    </li>
+                    <li><a href='sitters.html'>Sitters</a>
+                        <!--Second tab-->
+                    </li>
+                    <li><a href='bon-appetit.html'>Bon Appetit</a>
+                        <!--third tab-->
+                    </li>
+                    <li><a href='login.html'>Login!</a>
+                        <!--Login tab-->
+                    </li>
+                    <li><a href='sign-up.html'>Sign Up!</a>
+                        <!--Sign up tab-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--End navigation-->
+    </header>
+
+    <div class="container">
+        <button class="btn brown modal-trigger" data-target="terms">Subscribe</button>
+
+        <div class="modal" id="terms">
+            <div class="modal-content">
+                <h3>Subscribe</h3>
+                <p>Subscribe and like our page on <a href="https://www.facebook.com/"!onclick="toggleModal();">Facebook</a>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn red modal-close">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
+        <h6> © 2021 Copyright Ohio State Bootcamp</h6>
+    </footer>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/modal.js"></script>
+</html>
