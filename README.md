@@ -27,14 +27,14 @@ https://apidocs.geoapify.com/
 ## Github Group Repo Link:
 https://github.com/Shy-F/ruff-ruff
 
-## Github Pages URL:
+## Github Group Pages URL:
 https://github.com/Shy-F/ruff-ruff
 
 ## Github personal URL link:
-
+https://github.com/Tasevski87/Group-project-1-
 
 ## Github personal URL Pages link:
-
+https://tasevski87.github.io/Group-project-1-/
 
 
 ## Contributors:
